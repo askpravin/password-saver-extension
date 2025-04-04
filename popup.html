@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Saver</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h2>Password Saver</h2>
+  <form id="credentialsForm">
+    <label for="site">Website</label>
+    <input type="text" id="site" name="site" />
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" />
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" />
+    <button type="submit" id="saveBtn">Save</button>
+  </form>
+
+  <h3>Saved Credentials</h3>
+  <ul id="credentialsList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
